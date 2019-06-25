@@ -1,0 +1,7 @@
+{
+  "name": "node-template",
+  "version": "0.0.1",
+  "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
+  "main": "dist/index.js",
+  "license": "MIT"
+}
