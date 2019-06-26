@@ -1,2 +1,2 @@
-const deepCopy = (target: Array<any> | Object) => JSON.parse(JSON.stringify(target))
+const deepCopy = <T extends Array<any> | {}>(target: T): T => JSON.parse(JSON.stringify(target))
 export default deepCopy

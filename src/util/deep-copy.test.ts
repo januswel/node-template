@@ -2,6 +2,7 @@ import deepCopy from './deep-copy'
 
 describe('deepCopy', () => {
   it('returns array has elements whose values equal original elements', () => {
+    // eslint-disable-next-line @typescript-eslint/no-magic-numbers
     const original = [1, 'foo', ['bar', 2], { foo: 1, bar: 'bar' }]
     const actual = deepCopy(original)
     expect(actual).not.toBe(original)
@@ -9,6 +10,7 @@ describe('deepCopy', () => {
   })
 
   it('returns object has properties whose values equal original properties', () => {
+    // eslint-disable-next-line @typescript-eslint/no-magic-numbers
     const original = { foo: 1, bar: { foo: 'foo', bar: 2 }, buz: [1, 'foo'] }
     const actual = deepCopy(original)
     expect(actual).not.toBe(original)

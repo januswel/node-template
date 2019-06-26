@@ -10,10 +10,15 @@
     "start": "node dist/index.js",
     "prestart": "yarn build",
     "dev": "ts-node src/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint $(find src -name '*.ts')"
   },
   "devDependencies": {
     "@types/jest": "24.0.15",
+    "@typescript-eslint/eslint-plugin": "1.11.0",
+    "@typescript-eslint/parser": "1.11.0",
+    "eslint": "6.0.1",
+    "eslint-plugin-jest": "22.7.1",
     "jest": "24.8.0",
     "prettier": "1.18.2",
     "ts-jest": "24.0.2",
