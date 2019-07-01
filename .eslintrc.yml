@@ -19,8 +19,7 @@ plugins:
   - '@typescript-eslint'
 rules:
   # https://eslint.org/docs/rules/
-  # Don't write rules covered by recommended and Prettier
-  # Write rules you wanna disable explicitly
+  # Don't write rules covered by Prettier
 
   # possible errors
   for-direction: error
