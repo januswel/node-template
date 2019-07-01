@@ -5,11 +5,13 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
+    "clean": "rm -rf dist",
     "build": "tsc",
-    "prebuild": "rm -rf dist",
+    "prebuild": "yarn clean",
     "start": "node dist/index.js",
     "prestart": "yarn build",
     "dev": "ts-node src/index.ts",
+    "type-check": "tsc --noEmit",
     "test": "jest",
     "lint": "eslint $(find src -name '*.ts')"
   },
