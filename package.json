@@ -16,15 +16,15 @@
     "lint": "eslint $(find src -name '*.ts')"
   },
   "devDependencies": {
-    "@types/jest": "24.0.18",
-    "@typescript-eslint/eslint-plugin": "2.3.0",
-    "@typescript-eslint/parser": "2.3.0",
-    "eslint": "6.4.0",
-    "eslint-plugin-jest": "22.17.0",
-    "jest": "24.9.0",
-    "prettier": "1.18.2",
-    "ts-jest": "24.1.0",
-    "ts-node": "8.4.1",
-    "typescript": "3.6.3"
+    "@types/jest": "25.2.2",
+    "@typescript-eslint/eslint-plugin": "2.33.0",
+    "@typescript-eslint/parser": "2.33.0",
+    "eslint": "6.8.0",
+    "eslint-plugin-jest": "23.13.0",
+    "jest": "26.0.1",
+    "prettier": "2.0.5",
+    "ts-jest": "26.0.0",
+    "ts-node": "8.10.1",
+    "typescript": "3.9.2"
   }
 }
