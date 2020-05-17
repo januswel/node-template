@@ -1,6 +1,6 @@
 # node-template
 
-[![CircleCI](https://circleci.com/gh/januswel/node-template.svg?style=svg)](https://circleci.com/gh/januswel/node-template)
+![test](https://github.com/januswel/node-template/workflows/test/badge.svg)
 
 ## Getting Started
 
