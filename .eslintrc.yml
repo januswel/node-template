@@ -7,8 +7,6 @@ env:
 parser: '@typescript-eslint/parser'
 parserOptions:
   project: ./tsconfig.json
-  jsx: true
-  useJSXTextNode: true
   ecmaVersion: 2019
   sourceType: module
   ecmaFeatures:
